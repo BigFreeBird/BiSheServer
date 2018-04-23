@@ -2,7 +2,7 @@ package cn.wx.entiry;
 
 import java.security.MessageDigest;
 import java.security.PrivateKey;
-import java.security.PublicKey;
+
 import java.util.ArrayList;
 
 import com.alibaba.fastjson.JSON;
@@ -25,7 +25,7 @@ public class ClientMessageProcessor {
 		this.user=user;
 		this.messageCollected=messageCollected;
 		this.keyManager=keyManager;
-	}
+	} 
 	
 	public User getUser() {
 		return user;
